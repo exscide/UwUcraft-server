@@ -1,0 +1,20 @@
+_config/
+.fabric/
+dynmap/
+libraries/
+logs/
+patchouli_books/
+versions/
+world/
+*.json
+
+# ignore all config files
+config/*
+# but not subdirs
+config/*/
+# but all configs in subdirs
+config/*/*
+
+!config/quickshulkerconfig.json5
+!config/ringsofascension.json
+!config/universal-graves.json
